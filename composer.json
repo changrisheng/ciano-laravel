@@ -1,0 +1,24 @@
+{
+    "name": "ciano\/ciano-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ciano",
+            "email": "1005735560@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ciano\\CianoLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ciano\\CianoLaravel\\Providers\\JunitServiceProvider"
+            ]
+        }
+    }
+}
